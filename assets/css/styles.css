@@ -94,7 +94,7 @@ h1, h2, h3, p { margin: 0; }
   background: transparent; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; color: var(--ec-tinta);
 }
 .menu-btn svg { width: 20px; height: 20px; }
-.mobile-nav { display: none; border-top: 1px solid var(--ec-linea); padding: 8px 0 24px; }
+.mobile-nav { display: none; border-top: 1px solid var(--ec-linea); padding-top: 8px; padding-bottom: 24px; }
 .mobile-nav.is-open { display: block; }
 .mobile-nav a { display: block; padding: 14px 0; font-size: 1.25rem; font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--ec-linea); }
 .mobile-nav .btn { margin-top: 20px; width: 100%; font-size: 1rem; border-bottom: 0; }
