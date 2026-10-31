@@ -214,10 +214,10 @@ h1, h2, h3, p { margin: 0; }
 /* ── whatsapp flotante ───────────────── */
 .wa-float {
   position: fixed; right: 20px; bottom: 20px; z-index: 60;
-  width: 56px; height: 56px; border-radius: var(--radius-pill); background: var(--ec-whatsapp); color: var(--ec-tinta);
+  width: 56px; height: 56px; border-radius: var(--radius-pill); background: var(--ec-whatsapp); color: #fff;
   display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 6px 20px rgba(20, 20, 20, .18);
 }
-.wa-float svg { width: 26px; height: 26px; }
+.wa-float svg { width: 30px; height: 30px; display: block; flex-shrink: 0; }
 
 /* ── aparición suave ─────────────────── */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
