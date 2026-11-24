@@ -123,6 +123,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .price__amount { display: flex; align-items: flex-start; gap: 6px; font-size: clamp(4.5rem, 10vw, 6.5rem); font-weight: 300; letter-spacing: -.05em; line-height: .9; }
 .price__amount small { font-size: .4em; letter-spacing: 0; margin-top: .25em; }
+.price__from { align-self: flex-end; font-size: .9rem; font-weight: 400; letter-spacing: 0; color: inherit; opacity: .75; margin: 0 4px .55em 0; }
 .price__badge { justify-self: start; background: var(--ec-senal); color: var(--ec-tinta); font-size: .875rem; font-weight: 700; letter-spacing: 0; padding: 8px 14px; border-radius: var(--radius-pill); }
 .price p { color: var(--ec-niebla); font-size: .9375rem; line-height: 1.6; }
 .price .label { color: var(--ec-niebla); }
