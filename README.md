@@ -4,5 +4,5 @@ Web de Esteban Calvo · Diseño y web — https://ecwebdesign.es
 
 - `/` — web principal (castellano)
 - `/en/` — versión en inglés
-- `/oferta/` — landing de la oferta "Tu web por 200 €"
+- `/oferta/` — landing de la oferta "Tu web desde 200 €"
 - `assets/css/tokens.css` — colores, tipografía y espaciado del manual de marca
